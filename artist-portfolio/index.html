@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Artist Name</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#artworks" class="nav-link">Artworks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#exhibitions" class="nav-link">Exhibitions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#interviews" class="nav-link">Interviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Artist Name</h1>
+            <p class="hero-subtitle">Contemporary Visual Artist</p>
+            <p class="hero-description">Exploring the intersection of light, color, and emotion through mixed media installations and paintings.</p>
+            <a href="#artworks" class="cta-button">View Artworks</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-artwork.jpg" alt="Featured Artwork" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About the Artist</h2>
+                    <p>Born in [City, Year], [Artist Name] is a contemporary visual artist whose work explores themes of identity, memory, and the human condition. With over [X] years of experience, their practice spans multiple mediums including painting, sculpture, and digital installations.</p>
+                    
+                    <p>Their work has been featured in galleries across [Countries/Regions] and is held in private collections worldwide. [Artist Name] received their MFA from [University] and has been the recipient of numerous awards including [Award Names].</p>
+                    
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li><strong>MFA in Fine Arts</strong> - [University Name], [Year]</li>
+                        <li><strong>BFA in Visual Arts</strong> - [University Name], [Year]</li>
+                    </ul>
+                    
+                    <h3>Awards & Recognition</h3>
+                    <ul class="awards-list">
+                        <li>[Award Name] - [Year]</li>
+                        <li>[Grant Name] - [Year]</li>
+                        <li>[Recognition] - [Year]</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/artist-portrait.jpg" alt="Artist Portrait" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artworks Section -->
+    <section id="artworks" class="artworks">
+        <div class="container">
+            <h2>Artworks</h2>
+            <div class="artwork-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="paintings">Paintings</button>
+                <button class="filter-btn" data-filter="sculptures">Sculptures</button>
+                <button class="filter-btn" data-filter="installations">Installations</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+            </div>
+            
+            <div class="artwork-grid">
+                <!-- Artwork items will be populated here -->
+                <div class="artwork-item" data-category="paintings">
+                    <img src="images/artwork-1.jpg" alt="Artwork Title 1" />
+                    <div class="artwork-info">
+                        <h3>Artwork Title 1</h3>
+                        <p>Oil on Canvas, 2024</p>
+                        <p>36" x 48"</p>
+                    </div>
+                </div>
+                
+                <div class="artwork-item" data-category="sculptures">
+                    <img src="images/artwork-2.jpg" alt="Artwork Title 2" />
+                    <div class="artwork-info">
+                        <h3>Artwork Title 2</h3>
+                        <p>Bronze, 2023</p>
+                        <p>24" x 18" x 12"</p>
+                    </div>
+                </div>
+                
+                <div class="artwork-item" data-category="installations">
+                    <img src="images/artwork-3.jpg" alt="Artwork Title 3" />
+                    <div class="artwork-info">
+                        <h3>Artwork Title 3</h3>
+                        <p>Mixed Media Installation, 2023</p>
+                        <p>Site-specific</p>
+                    </div>
+                </div>
+                
+                <div class="artwork-item" data-category="digital">
+                    <img src="images/artwork-4.jpg" alt="Artwork Title 4" />
+                    <div class="artwork-info">
+                        <h3>Artwork Title 4</h3>
+                        <p>Digital Art, 2024</p>
+                        <p>Limited Edition Print</p>
+                    </div>
+                </div>
+                
+                <div class="artwork-item" data-category="paintings">
+                    <img src="images/artwork-5.jpg" alt="Artwork Title 5" />
+                    <div class="artwork-info">
+                        <h3>Artwork Title 5</h3>
+                        <p>Acrylic on Canvas, 2022</p>
+                        <p>30" x 40"</p>
+                    </div>
+                </div>
+                
+                <div class="artwork-item" data-category="sculptures">
+                    <img src="images/artwork-6.jpg" alt="Artwork Title 6" />
+                    <div class="artwork-info">
+                        <h3>Artwork Title 6</h3>
+                        <p>Ceramic, 2023</p>
+                        <p>16" x 12" x 8"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exhibitions Section -->
+    <section id="exhibitions" class="exhibitions">
+        <div class="container">
+            <h2>Exhibitions</h2>
+            <div class="exhibition-timeline">
+                <div class="exhibition-item">
+                    <div class="exhibition-year">2024</div>
+                    <div class="exhibition-details">
+                        <h3>"Contemporary Visions" - Solo Exhibition</h3>
+                        <p><strong>Gallery Name</strong>, City, Country</p>
+                        <p>A comprehensive showcase of recent works exploring themes of urban transformation and human connection.</p>
+                    </div>
+                </div>
+                
+                <div class="exhibition-item">
+                    <div class="exhibition-year">2023</div>
+                    <div class="exhibition-details">
+                        <h3>"Collective Memories" - Group Exhibition</h3>
+                        <p><strong>Museum of Contemporary Art</strong>, City, Country</p>
+                        <p>Featured alongside 12 international artists in this curated exhibition on memory and place.</p>
+                    </div>
+                </div>
+                
+                <div class="exhibition-item">
+                    <div class="exhibition-year">2023</div>
+                    <div class="exhibition-details">
+                        <h3>"Emerging Voices" - Solo Exhibition</h3>
+                        <p><strong>Art Space Gallery</strong>, City, Country</p>
+                        <p>First major solo exhibition featuring the "Urban Landscapes" series.</p>
+                    </div>
+                </div>
+                
+                <div class="exhibition-item">
+                    <div class="exhibition-year">2022</div>
+                    <div class="exhibition-details">
+                        <h3>"New Perspectives" - Group Exhibition</h3>
+                        <p><strong>Contemporary Arts Center</strong>, City, Country</p>
+                        <p>Participated in this juried exhibition featuring emerging contemporary artists.</p>
+                    </div>
+                </div>
+                
+                <div class="exhibition-item">
+                    <div class="exhibition-year">2021</div>
+                    <div class="exhibition-details">
+                        <h3>"Digital Frontiers" - Online Exhibition</h3>
+                        <p><strong>Virtual Gallery Platform</strong></p>
+                        <p>Showcased digital artworks in this pioneering online exhibition format.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interviews Section -->
+    <section id="interviews" class="interviews">
+        <div class="container">
+            <h2>Interviews & Press</h2>
+            <div class="interview-grid">
+                <div class="interview-item">
+                    <div class="interview-image">
+                        <img src="images/interview-1.jpg" alt="Interview 1" />
+                    </div>
+                    <div class="interview-content">
+                        <h3>"Exploring Contemporary Art in the Digital Age"</h3>
+                        <p class="interview-publication">Art Magazine - March 2024</p>
+                        <p>An in-depth conversation about the evolution of artistic practice in the digital era and the role of technology in contemporary art.</p>
+                        <a href="#" class="read-more">Read Full Interview</a>
+                    </div>
+                </div>
+                
+                <div class="interview-item">
+                    <div class="interview-image">
+                        <img src="images/interview-2.jpg" alt="Interview 2" />
+                    </div>
+                    <div class="interview-content">
+                        <h3>"The Artist's Studio: A Behind-the-Scenes Look"</h3>
+                        <p class="interview-publication">Creative Process Podcast - January 2024</p>
+                        <p>A podcast interview discussing creative processes, inspiration, and the daily life of a contemporary artist.</p>
+                        <a href="#" class="read-more">Listen to Podcast</a>
+                    </div>
+                </div>
+                
+                <div class="interview-item">
+                    <div class="interview-image">
+                        <img src="images/interview-3.jpg" alt="Interview 3" />
+                    </div>
+                    <div class="interview-content">
+                        <h3>"Rising Stars in Contemporary Art"</h3>
+                        <p class="interview-publication">Culture Today - November 2023</p>
+                        <p>Featured as one of the emerging artists to watch, discussing artistic vision and future projects.</p>
+                        <a href="#" class="read-more">Read Article</a>
+                    </div>
+                </div>
+                
+                <div class="interview-item">
+                    <div class="interview-image">
+                        <img src="images/interview-4.jpg" alt="Interview 4" />
+                    </div>
+                    <div class="interview-content">
+                        <h3>"Art and Community: Making Connections"</h3>
+                        <p class="interview-publication">Local Arts Review - September 2023</p>
+                        <p>Discussion about the role of art in community building and social engagement.</p>
+                        <a href="#" class="read-more">Read Full Article</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>For inquiries about artworks, exhibitions, or collaborations, please reach out:</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:artist@example.com">artist@example.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <a href="tel:+1234567890">+1 (234) 567-8900</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Studio Address:</strong>
+                            <p>123 Art District<br>Creative City, State 12345</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Social Media:</strong>
+                            <div class="social-links">
+                                <a href="#" target="_blank">Instagram</a>
+                                <a href="#" target="_blank">Twitter</a>
+                                <a href="#" target="_blank">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Artist Name. All rights reserved.</p>
+            <p>Website designed for showcasing contemporary art and creative works.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Artwork Details -->
+    <div id="artworkModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDetails"></p>
+                <p id="modalDimensions"></p>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
