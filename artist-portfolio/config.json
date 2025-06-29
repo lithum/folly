@@ -1,0 +1,210 @@
+{
+  "artist": {
+    "name": "Artist Name",
+    "title": "Contemporary Visual Artist",
+    "description": "Exploring the intersection of light, color, and emotion through mixed media installations and paintings.",
+    "birthPlace": "City, Country",
+    "birthYear": "1990",
+    "email": "artist@example.com",
+    "phone": "+1 (234) 567-8900",
+    "address": {
+      "street": "123 Art District",
+      "city": "Creative City",
+      "state": "State",
+      "zip": "12345"
+    },
+    "socialMedia": {
+      "instagram": "https://instagram.com/artistname",
+      "twitter": "https://twitter.com/artistname",
+      "linkedin": "https://linkedin.com/in/artistname"
+    }
+  },
+  "education": [
+    {
+      "degree": "MFA in Fine Arts",
+      "institution": "University Name",
+      "year": "2015"
+    },
+    {
+      "degree": "BFA in Visual Arts",
+      "institution": "University Name",
+      "year": "2013"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Excellence in Contemporary Art Award",
+      "year": "2023"
+    },
+    {
+      "name": "Emerging Artist Grant",
+      "year": "2022"
+    },
+    {
+      "name": "Best in Show - Local Art Fair",
+      "year": "2021"
+    }
+  ],
+  "artworks": [
+    {
+      "id": "artwork-1",
+      "title": "Urban Reflections",
+      "medium": "Oil on Canvas",
+      "year": "2024",
+      "dimensions": "36\" x 48\"",
+      "category": "paintings",
+      "description": "This piece explores the interplay between urban architecture and natural light, capturing the essence of city life through bold brushstrokes and vibrant colors.",
+      "image": "images/artwork-1.jpg",
+      "available": true,
+      "price": "$2,500"
+    },
+    {
+      "id": "artwork-2",
+      "title": "Metamorphosis",
+      "medium": "Bronze",
+      "year": "2023",
+      "dimensions": "24\" x 18\" x 12\"",
+      "category": "sculptures",
+      "description": "A sculptural exploration of transformation and growth, this bronze piece represents the constant evolution of human experience.",
+      "image": "images/artwork-2.jpg",
+      "available": false,
+      "price": "Sold"
+    },
+    {
+      "id": "artwork-3",
+      "title": "Digital Dreams",
+      "medium": "Mixed Media Installation",
+      "year": "2023",
+      "dimensions": "Site-specific",
+      "category": "installations",
+      "description": "An immersive installation that blends digital projections with physical elements, creating a dreamlike environment that questions our relationship with technology.",
+      "image": "images/artwork-3.jpg",
+      "available": true,
+      "price": "Contact for pricing"
+    },
+    {
+      "id": "artwork-4",
+      "title": "Pixel Poetry",
+      "medium": "Digital Art",
+      "year": "2024",
+      "dimensions": "Limited Edition Print",
+      "category": "digital",
+      "description": "A digital artwork that transforms code into visual poetry, exploring the beauty found in the intersection of technology and art.",
+      "image": "images/artwork-4.jpg",
+      "available": true,
+      "price": "$500 (Edition of 50)"
+    },
+    {
+      "id": "artwork-5",
+      "title": "Emotional Landscapes",
+      "medium": "Acrylic on Canvas",
+      "year": "2022",
+      "dimensions": "30\" x 40\"",
+      "category": "paintings",
+      "description": "Abstract landscapes that represent internal emotional states, using color and form to convey feelings that words cannot express.",
+      "image": "images/artwork-5.jpg",
+      "available": true,
+      "price": "$1,800"
+    },
+    {
+      "id": "artwork-6",
+      "title": "Fragmented Memories",
+      "medium": "Ceramic",
+      "year": "2023",
+      "dimensions": "16\" x 12\" x 8\"",
+      "category": "sculptures",
+      "description": "A ceramic sculpture that explores the fragmented nature of memory, with broken and reassembled pieces representing how we reconstruct our past.",
+      "image": "images/artwork-6.jpg",
+      "available": true,
+      "price": "$1,200"
+    }
+  ],
+  "exhibitions": [
+    {
+      "year": "2024",
+      "title": "Contemporary Visions",
+      "type": "Solo Exhibition",
+      "venue": "Gallery Name",
+      "location": "City, Country",
+      "description": "A comprehensive showcase of recent works exploring themes of urban transformation and human connection."
+    },
+    {
+      "year": "2023",
+      "title": "Collective Memories",
+      "type": "Group Exhibition",
+      "venue": "Museum of Contemporary Art",
+      "location": "City, Country",
+      "description": "Featured alongside 12 international artists in this curated exhibition on memory and place."
+    },
+    {
+      "year": "2023",
+      "title": "Emerging Voices",
+      "type": "Solo Exhibition",
+      "venue": "Art Space Gallery",
+      "location": "City, Country",
+      "description": "First major solo exhibition featuring the \"Urban Landscapes\" series."
+    },
+    {
+      "year": "2022",
+      "title": "New Perspectives",
+      "type": "Group Exhibition",
+      "venue": "Contemporary Arts Center",
+      "location": "City, Country",
+      "description": "Participated in this juried exhibition featuring emerging contemporary artists."
+    },
+    {
+      "year": "2021",
+      "title": "Digital Frontiers",
+      "type": "Online Exhibition",
+      "venue": "Virtual Gallery Platform",
+      "location": "Online",
+      "description": "Showcased digital artworks in this pioneering online exhibition format."
+    }
+  ],
+  "interviews": [
+    {
+      "title": "Exploring Contemporary Art in the Digital Age",
+      "publication": "Art Magazine",
+      "date": "March 2024",
+      "description": "An in-depth conversation about the evolution of artistic practice in the digital era and the role of technology in contemporary art.",
+      "link": "#",
+      "image": "images/interview-1.jpg"
+    },
+    {
+      "title": "The Artist's Studio: A Behind-the-Scenes Look",
+      "publication": "Creative Process Podcast",
+      "date": "January 2024",
+      "description": "A podcast interview discussing creative processes, inspiration, and the daily life of a contemporary artist.",
+      "link": "#",
+      "image": "images/interview-2.jpg"
+    },
+    {
+      "title": "Rising Stars in Contemporary Art",
+      "publication": "Culture Today",
+      "date": "November 2023",
+      "description": "Featured as one of the emerging artists to watch, discussing artistic vision and future projects.",
+      "link": "#",
+      "image": "images/interview-3.jpg"
+    },
+    {
+      "title": "Art and Community: Making Connections",
+      "publication": "Local Arts Review",
+      "date": "September 2023",
+      "description": "Discussion about the role of art in community building and social engagement.",
+      "link": "#",
+      "image": "images/interview-4.jpg"
+    }
+  ],
+  "siteSettings": {
+    "primaryColor": "#e74c3c",
+    "secondaryColor": "#c0392b",
+    "backgroundColor": "#ffffff",
+    "textColor": "#333333",
+    "accentColor": "#2c3e50",
+    "googleAnalyticsId": "",
+    "favicon": "images/favicon.ico",
+    "metaDescription": "Contemporary visual artist exploring themes of identity, memory, and human connection through mixed media installations and paintings.",
+    "metaKeywords": "contemporary art, visual artist, paintings, sculptures, installations, digital art, exhibitions"
+  }
+}
+

@@ -1,0 +1,50 @@
+{
+  "name": "artist-portfolio-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive static website template for artists to showcase their work",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "build": "./build.sh deploy",
+    "validate": "./build.sh validate",
+    "optimize": "./build.sh optimize",
+    "clean": "./build.sh clean",
+    "generate": "python3 generate.py",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "artist",
+    "portfolio",
+    "website",
+    "static",
+    "responsive",
+    "gallery",
+    "art",
+    "exhibition",
+    "template"
+  ],
+  "author": "Artist Portfolio Template",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/artist-portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/artist-portfolio/issues"
+  },
+  "homepage": "https://your-username.github.io/artist-portfolio",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.6.0"
+  }
+}
+
